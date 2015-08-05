@@ -13,6 +13,7 @@
 		B3D63A011B721C900074F7FD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3D63A001B721C900074F7FD /* Images.xcassets */; };
 		B3D63A041B721C900074F7FD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3D63A021B721C900074F7FD /* LaunchScreen.xib */; };
 		B3D63A101B721C900074F7FD /* WebViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D63A0F1B721C900074F7FD /* WebViewSampleTests.swift */; };
+		B3D63A1A1B7221540074F7FD /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D63A191B7221540074F7FD /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		B3D63A091B721C900074F7FD /* WebViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3D63A0E1B721C900074F7FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3D63A0F1B721C900074F7FD /* WebViewSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewSampleTests.swift; sourceTree = "<group>"; };
+		B3D63A191B7221540074F7FD /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3D63A1A1B7221540074F7FD /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		B3D639EB1B721C900074F7FD = {
 			isa = PBXGroup;
 			children = (
+				B3D63A191B7221540074F7FD /* WebKit.framework */,
 				B3D639F61B721C900074F7FD /* WebViewSample */,
 				B3D63A0C1B721C900074F7FD /* WebViewSampleTests */,
 				B3D639F51B721C900074F7FD /* Products */,
